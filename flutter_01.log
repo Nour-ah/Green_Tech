@@ -1,0 +1,75 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --start-paused -d 7fdc8153 --devtools-server-address http://127.0.0.1:9100/ --target E:\GreenTech\green_tech\lib\main.dart
+
+## exception
+
+HttpException: HttpException: Connection closed before full header was received, uri = http://127.0.0.1:11774/R2-PGBhcCYE=/ws
+
+```
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel stable, 3.13.1, on Microsoft Windows [Version 10.0.19045.3996], locale en-US)
+    • Flutter version 3.13.1 on channel stable at C:\src\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision e1e47221e8 (6 months ago), 2023-08-22 21:43:18 -0700
+    • Engine revision b20183e040
+    • Dart version 3.1.0
+    • DevTools version 2.25.0
+    • Pub download mirror https://pub.flutter-io.cn
+    • Flutter download mirror https://storage.flutter-io.cn
+
+[✓] Windows Version (Installed version of Windows is version 10 or higher)
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 34.0.0)
+    • Android SDK at C:\Users\friends\AppData\Local\Android\sdk
+    • Platform android-UpsideDownCakePrivacySandbox, build-tools 34.0.0
+    • Java binary at: C:\Program Files\Android\Android Studio1\jbr\bin\java
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-b2043.56-9586694)
+    • All Android licenses accepted.
+
+[✓] Chrome - develop for the web
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[✓] Visual Studio - develop Windows apps (Visual Studio Community 2022 17.7.3)
+    • Visual Studio at E:\install visual studio
+    • Visual Studio Community 2022 version 17.7.34024.191
+    • Windows 10 SDK version 10.0.22621.0
+
+[✓] Android Studio (version 2022.2)
+    • Android Studio at C:\Program Files\Android\Android Studio1
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    • Java version OpenJDK Runtime Environment (build 17.0.6+0-b2043.56-9586694)
+
+[!] Android Studio (version 2022.3)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    • Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    ✗ Unable to determine bundled Java version.
+    • Try updating or re-installing Android Studio.
+
+[✓] Connected device (4 available)
+    • 220333QAG (mobile) • 7fdc8153 • android-arm64  • Android 13 (API 33)
+    • Windows (desktop)  • windows  • windows-x64    • Microsoft Windows [Version 10.0.19045.3996]
+    • Chrome (web)       • chrome   • web-javascript • Google Chrome 121.0.6167.161
+    • Edge (web)         • edge     • web-javascript • Microsoft Edge 121.0.2277.112
+
+[!] Network resources
+    ✗ A network error occurred while checking "https://pub.flutter-io.cn": Failed host lookup: 'pub.flutter-io.cn'
+    ✗ A network error occurred while checking "https://storage.flutter-io.cn": Failed host lookup: 'storage.flutter-io.cn'
+    ✗ A network error occurred while checking "https://cocoapods.org/": Failed host lookup: 'cocoapods.org'
+    ✗ A network error occurred while checking "https://github.com/": Failed host lookup: 'github.com'
+
+! Doctor found issues in 2 categories.
+```
